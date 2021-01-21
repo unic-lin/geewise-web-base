@@ -1,0 +1,34 @@
+{
+  "name": "geewise-web",
+  "version": "1.0.0",
+  "description": "<%=private%>",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "test": "cross-env NODE_ENV=test pm2 start --name <%=serverName%>-test ./src/index.js",
+    "prod": "cross-env NODE_ENV=production pm2 start --name <%=serverName%>-prod ./src/index.js",
+    "commit": "git cz"
+  },
+  "keywords": [],
+  "author": "<%=author%>",
+  "license": "<%=license%>",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "log4js": "^6.3.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
