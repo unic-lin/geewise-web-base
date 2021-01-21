@@ -1,5 +1,5 @@
 /*
- * @Description: 极智汇nodejs开发基础模板
+ * @Description: 极智汇nodejs web 开发基础模板
  * @Version: 2.0
  * @Autor: chengDong
  * @Date: 2019-12-13 23:02:55

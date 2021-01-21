@@ -1,4 +1,6 @@
-
+/**
+ * 测试服务类
+ */
 const { Test} = require('../model')
 const { HttpError } = require('../common')
 class TestService{

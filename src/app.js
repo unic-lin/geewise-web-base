@@ -1,3 +1,6 @@
+/**
+ * web 入口文件
+ */
 const express = require('express')
 require('express-async-errors')
 const bodyParser = require('body-parser')

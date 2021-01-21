@@ -1,3 +1,6 @@
+/**
+ * 测试controller
+ */
 const {Result} = require('../util/resp')
 const { TestService } = require('../service')
 
